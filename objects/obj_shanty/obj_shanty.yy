@@ -1,6 +1,9 @@
 {
   "name": "obj_shanty",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_shanty",
+    "path": "sprites/spr_shanty/spr_shanty.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
   "solid": false,
@@ -19,7 +22,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
