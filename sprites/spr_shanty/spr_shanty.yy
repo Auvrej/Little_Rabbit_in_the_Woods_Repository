@@ -77,7 +77,7 @@
     "spriteId": {"name":"spr_shanty","path":"sprites/spr_shanty/spr_shanty.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 14.0,
+    "playbackSpeed": 12.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
