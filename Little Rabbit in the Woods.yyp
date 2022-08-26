@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"obj_shanty","path":"objects/obj_shanty/obj_shanty.yy",},"order":0,},
+    {"id":{"name":"sdr_main","path":"shaders/sdr_main/sdr_main.yy",},"order":0,},
     {"id":{"name":"spr_shanty","path":"sprites/spr_shanty/spr_shanty.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
@@ -9,7 +10,7 @@
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "isEcma": false,
   "configs": {
     "name": "Default",
