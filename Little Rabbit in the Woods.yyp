@@ -1,12 +1,28 @@
 {
   "resources": [
+    {"id":{"name":"spr_playertemp_move_nw","path":"sprites/spr_playertemp_move_nw/spr_playertemp_move_nw.yy",},"order":8,},
+    {"id":{"name":"spr_playertemp_move_sw","path":"sprites/spr_playertemp_move_sw/spr_playertemp_move_sw.yy",},"order":11,},
+    {"id":{"name":"spr_playertemp_idle_s","path":"sprites/spr_playertemp_idle_s/spr_playertemp_idle_s.yy",},"order":3,},
+    {"id":{"name":"spr_playertemp_move_se","path":"sprites/spr_playertemp_move_se/spr_playertemp_move_se.yy",},"order":10,},
     {"id":{"name":"obj_shanty","path":"objects/obj_shanty/obj_shanty.yy",},"order":0,},
+    {"id":{"name":"spr_playertemp_move_ne","path":"sprites/spr_playertemp_move_ne/spr_playertemp_move_ne.yy",},"order":7,},
+    {"id":{"name":"spr_playertemp_idle_nw","path":"sprites/spr_playertemp_idle_nw/spr_playertemp_idle_nw.yy",},"order":2,},
+    {"id":{"name":"spr_playertemp_idle_sw","path":"sprites/spr_playertemp_idle_sw/spr_playertemp_idle_sw.yy",},"order":5,},
+    {"id":{"name":"spr_playertemp_move_s","path":"sprites/spr_playertemp_move_s/spr_playertemp_move_s.yy",},"order":9,},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":1,},
+    {"id":{"name":"spr_playertemp_move_n","path":"sprites/spr_playertemp_move_n/spr_playertemp_move_n.yy",},"order":6,},
+    {"id":{"name":"spr_playertemp_idle_n","path":"sprites/spr_playertemp_idle_n/spr_playertemp_idle_n.yy",},"order":0,},
     {"id":{"name":"sdr_main","path":"shaders/sdr_main/sdr_main.yy",},"order":0,},
+    {"id":{"name":"spr_playertemp_idle_ne","path":"sprites/spr_playertemp_idle_ne/spr_playertemp_idle_ne.yy",},"order":1,},
     {"id":{"name":"spr_shanty","path":"sprites/spr_shanty/spr_shanty.yy",},"order":0,},
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 =======
     {"id":{"name":"spr_playertemp_idle_se","path":"sprites/spr_playertemp_idle_se/spr_playertemp_idle_se.yy",},"order":4,},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"order":2,},
+>>>>>>> Stashed changes
+=======
+    {"id":{"name":"spr_playertemp_idle_se","path":"sprites/spr_playertemp_idle_se/spr_playertemp_idle_se.yy",},"order":4,},
 >>>>>>> Stashed changes
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
@@ -39,6 +55,7 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/player sprites temp.yy","order":13,"resourceVersion":"1.0","name":"player sprites temp","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
