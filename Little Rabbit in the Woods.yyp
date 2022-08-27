@@ -3,6 +3,11 @@
     {"id":{"name":"obj_shanty","path":"objects/obj_shanty/obj_shanty.yy",},"order":0,},
     {"id":{"name":"sdr_main","path":"shaders/sdr_main/sdr_main.yy",},"order":0,},
     {"id":{"name":"spr_shanty","path":"sprites/spr_shanty/spr_shanty.yy",},"order":0,},
+<<<<<<< Updated upstream
+=======
+    {"id":{"name":"spr_playertemp_idle_se","path":"sprites/spr_playertemp_idle_se/spr_playertemp_idle_se.yy",},"order":4,},
+    {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"order":2,},
+>>>>>>> Stashed changes
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
