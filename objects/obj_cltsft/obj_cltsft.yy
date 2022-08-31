@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "Sprite18",
-    "path": "sprites/Sprite18/Sprite18.yy",
+    "name": "spr_coltsfoot_0",
+    "path": "sprites/spr_coltsfoot_0/spr_coltsfoot_0.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
@@ -21,9 +21,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":2,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +29,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_control",
+  "name": "obj_cltsft",
   "tags": [],
   "resourceType": "GMObject",
 }

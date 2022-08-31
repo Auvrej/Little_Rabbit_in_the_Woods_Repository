@@ -1,3 +1,7 @@
+x=clamp(x,(20+_mspeed),room_width-(20+_mspeed));
+y=clamp(y,(20+_mspeed),room_width-(20+_mspeed));
+
+//________________________________
 _moveleft=keyboard_check(vk_left);
 _moveright=keyboard_check(vk_right);
 _movedown=keyboard_check(vk_down);
@@ -26,4 +30,5 @@ if((vx!=0)||(vy!=0)){
 	if((vx>0)&&(vy>=0)){_mydirection=5}
 }else{_mystate=_playerstate.idle} 
 sprite_index=_playerspr[_mystate][_mydirection];
+	
 	
