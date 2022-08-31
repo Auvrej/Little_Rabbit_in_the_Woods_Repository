@@ -30,5 +30,3 @@ if((vx != 0)||(vy != 0)){
 	if((vx < 0) && (vy >= 0)){_mydirection = 5}
 }else{_mystate = _playerstate.idle} 
 sprite_index = _playerspr[_mystate][_mydirection];
-	
-	
