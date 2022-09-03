@@ -4,10 +4,16 @@
 attribute vec3 in_Position;                  // (x,y,z)
 //attribute vec3 in_Normal;                  // (x,y,z)     unused in this shader.
 attribute vec4 in_Colour;                    // (r,g,b,a)
-attribute vec2 in_TextureCoord;              // (u,v)
+attribute vec2 in_TextureCoord;               // (u,v)
+attribute vec2 in_TextureCoord0;              // GML: vertex_format_add_custom(vertex_type_float2, vertex_usage_texcoord);
+attribute vec2 in_TextureCoord1;              // GML: vertex_format_add_custom(vertex_type_float2, vertex_usage_texcoord);
+attribute vec2 in_room_pos;
 
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
+varying vec2 uv_start; //previously texcoord0
+varying vec2 uv_end; //previously texcoord1
+varying vec2 room_pos;
 
 void main()
 {
@@ -16,4 +22,7 @@ void main()
     
     v_vColour = in_Colour;
     v_vTexcoord = in_TextureCoord;
+	uv_start = in_TextureCoord0;
+	uv_end = in_TextureCoord1;
+	room_pos = in_room_pos;
 }
