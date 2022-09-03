@@ -3,7 +3,8 @@ x = clamp(x, (20 + _mspeed), room_width - (20 + _mspeed));
 y = clamp(y, (20 + _mspeed), room_height - (20 + _mspeed));
 
 //change speed dynamically
-_mspeed = ((0.9 * sin(pi/2 * image_index)) + 1) * 5;
+if (keyboard_check_pressed(vk_left) || keyboard_check_pressed(vk_up) || keyboard_check_pressed(vk_right) || keyboard_check_pressed(vk_down)) {image_index = 0};
+_mspeed = ((0.99 * sin(pi/2 * image_index)) + 1) * 4;
 
 
 //store keypresses
